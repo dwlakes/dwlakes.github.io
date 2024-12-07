@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call or Text?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        #content {
+            font-size: 2rem;
+        }
+        button {
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>Click here to find out when it's acceptable to call instead of text:</h1>
+        <button onclick="showAnswer()">Click Here</button>
+    </div>
+
+    <script>
+        function showAnswer() {
+            document.body.innerHTML = "<div style='font-size: 5rem; font-weight: bold; color: red;'>god damn never you fucking psychopath</div>";
+        }
+    </script>
+</body>
+</html>
